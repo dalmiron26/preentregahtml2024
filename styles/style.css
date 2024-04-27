@@ -1,0 +1,247 @@
+*{/**selector universal*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+/*llamar a las clases*/
+.main{
+width: 100%;/*ancho*/
+height: 100vh;
+}
+
+.section-1{
+    width: 100%;
+    height: 6.5em; /*1em equivale a 16px, tendriamos 160px*/
+    background: linear-gradient(rgb(247, 80, 2), blue);
+    padding-top: 1.6em;
+    position: sticky;
+    top: 0;
+    
+}
+
+.header{
+    background-color: black;
+    width: 100%;
+    height: 4.5em;
+    display: flex;
+    flex-direction: row;
+    
+}
+.img{
+width: 15%;
+height: 100%;/*100%de su padre header*/
+}
+
+h1{
+        font-family: "Bungee Spice", sans-serif;
+        font-weight: 500px;
+        font-style: normal;
+        text-align: center;
+        font-size: 32px;
+        width: 25%;
+        height: 100%;
+        
+    
+}
+
+.menu{
+width: 75%;
+height: 100%;
+display: flex;/*indica la capacida de un elemento flexible para alterar sus dimensiones*/
+flex-direction: row;
+justify-content: right;/*posición hacia donde mover de izq. a derecha*/
+align-items: center;/*alinea de arriba a abajo nuestro item*/
+
+}
+
+.img img{/*selector descendiente, se usa la lase img y su hijo img que es la imagen en sí*/
+    object-fit: cover;/*nos ayuda a conservar el aspecto de la imagen*/
+    height: 100%;
+}
+.menu a{/*se recurre a los hijos de meu para trabajar en ellos*/
+display: flex;
+text-decoration: none;/*saca linea de bajo del texto*/
+color: white;
+padding: 0 0.3em;
+}
+
+/*fin seción 1*/
+
+/*Comienzo section-2*/
+.section-2
+{
+    width: 100%;
+    height:calc(100vh-20em); /*1em equivale a 16px, tendriamos 160px*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.titulo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;/*tamaño letras, su valor se basa en el de supadre*/
+    text-align: center;/*alinea el texto*/
+    color: red;
+
+
+}
+
+.s2-texto hr{
+    width: 5%;
+    height: 0.25em;
+    background-color: red;
+    border: none;/*quita los bordes contorno*/
+    border-radius: 1em; /*modifica sus bordes*/
+    margin: 1em auto;
+}
+
+.s2-texto p{
+    font-size: 1.25em;
+    text-align: center;
+
+}
+.s2-contenido{
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5em;
+}
+
+.contenido-img{
+     width: 100%;
+     height: 50%;
+     overflow: hidden;
+ }
+.contenido-img img{
+    object-fit: cover;
+    width: 100%;
+    
+} 
+
+.contenido-texto{
+    
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5em 0;
+}
+
+.s2-texto{
+    width: 80%;
+    height: 20%;
+}
+
+.s2-img{
+width: 80%;
+height: 80%;
+display: flex;
+flex-direction: row;
+
+}
+
+.contenido-texto h2{
+font-size: 1.25em;
+
+}
+.contenido-texto p{
+    font-size: 1.25em;
+    margin: 1em 0;
+    text-align: center;
+
+}
+.contenido-texto a{
+text-decoration: none;
+color: white;
+background-color: red;
+width:35%;
+padding: 0.5em 0;
+border: none;
+border-radius: 30px;
+text-align: center;
+box-shadow: 3px 3px 3px black;
+}
+
+
+
+/*fin section-2*/
+
+/*comienzo section-3*/
+.section-3
+{
+    width: 100%;
+    height: 10em; /*1em equivale a 16px, tendriamos 160px*/
+    background: linear-gradient(rgb(247, 80, 2), blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    min-width: 250px;
+    
+}
+.section-3 hr{
+background-color: black;
+width: 100%;
+height: 5%;
+border: none;
+}
+
+.s3-contenido{
+width: 100%;
+height: 65%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.s3-logo{
+    width: 60%;
+}
+
+.s3-logo img{
+    object-fit: cover;
+    height: 100%;
+}
+
+.s3-texto {
+width: 40%;
+color: white;
+font-size: 1em;
+}
+
+.s3-texto a{
+    color: white;
+}
+
+.footer{
+    width: 100%;
+    height: 30%;
+    border-top: orange solid 0.0625em;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding: 0 10%;
+
+}
+
+.autor{
+text-decoration: none;
+color: white;
+}
+
+.politicas{
+text-decoration: none;
+color: white;
+margin: 2em;
+padding: 0 2px;
+}
+
+/*fin section-3*/
