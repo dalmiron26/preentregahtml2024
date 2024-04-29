@@ -249,7 +249,75 @@ padding: 0 2px;
 
 /*fin section-3*/
 
-
+.body {
+    background-color: rgb(57, 71, 117) ;
+}
+.registrar {
+    width: 500px;
+    background: rgb(12, 155, 221);
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    }
+    
+    h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    }
+    
+    .control {
+        width: 100%;
+        background: cornflowerblue;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 18px;
+        color: white;
+    }
+    
+    .registrar p{
+        height: 40px;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .registrar a {
+        color: white;
+        text-decoration: none;
+    
+    }
+    
+    .registrar a:hover {
+        color: white;
+        text-decoration: underline;
+    }
+    
+    .registrar .boton {
+        width: 100%;
+        background-color: blue;
+        border-radius: 12px;
+        border: none;
+        padding: 12px;
+        color: white;
+        margin: 16px 0;
+        font-size: 16px;
+    }
+    
+    .inicio {
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+    }
+    
+    
+    
 
 @media (max-width:500px) {
 
