@@ -62,9 +62,17 @@ align-items: center;/*alinea de arriba a abajo nuestro item*/
 .menu a{/*se recurre a los hijos de meu para trabajar en ellos*/
 display: flex;
 text-decoration: none;/*saca linea de bajo del texto*/
-color: white;
+text-align: center;
 padding: 0 0.3em;
+  font-family: "Honk", system-ui;
+  font-size: x-large;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
 }
+
 
 /*fin seción 1*/
 
@@ -319,7 +327,6 @@ padding: 0 2px;
     /*********contacto************/
 
 .b2 {
-
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     min-height: 100vh;
     display: flex;
@@ -333,7 +340,7 @@ form {
     box-shadow: 0 0 20px black;/*estilo sombreado*/
     border-radius: 20px;
     text-align: center;
-    width: 500px;
+    width: 400px;
 }
 
 .input-goup {
@@ -381,7 +388,11 @@ input, textarea{
 
 
 
-
+.bu{
+    height: 100vh;
+    background: linear-gradient(rgb(224, 5, 5), rgb(233, 105, 105), rgb(233, 160, 160));
+    
+}
  .nosotros {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 2em;/*tamaño letras, su valor se basa en el de supadre*/
@@ -410,7 +421,14 @@ input, textarea{
 
     .menu{
         flex-direction: column;
-         }
+    align-items: end;       
+        
+}
+
+.menu a {
+font-size: large;
+
+}
 
     h1{
         width: 35%;
