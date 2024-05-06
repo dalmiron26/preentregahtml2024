@@ -390,7 +390,7 @@ input, textarea{
 
 .bu{
     height: 100vh;
-    background: linear-gradient(rgb(224, 5, 5), rgb(233, 105, 105), rgb(233, 160, 160));
+    background: linear-gradient(cornflowerblue,rgb(128, 128, 221), white)
     
 }
  .nosotros {
